@@ -1,0 +1,1 @@
+from .inserted_data import InsertedData
