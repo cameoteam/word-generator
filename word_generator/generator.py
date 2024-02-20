@@ -41,7 +41,8 @@ class WordManager:
 
         """
 
-        map(self.insert_value, fields)
+        for field in fields:
+            self.insert_value(field)
 
     def insert_value(
         self,
